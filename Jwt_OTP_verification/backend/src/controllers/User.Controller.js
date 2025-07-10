@@ -61,3 +61,14 @@ export const register = catchAsyncError(async (req, res, next) => {
     next(error);
   }
 });
+
+async function sendVerificationCode(
+  verificationMethod,
+  verificationsCode,
+  email,
+  phone
+) {
+  if (verificationMethod === "email") {
+    const message = generateEmailTemplate(verificationsCode);
+  }
+}
