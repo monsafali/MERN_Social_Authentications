@@ -1,0 +1,6 @@
+frontend npm i @react-oauth/google
+
+backend = npm i googleapis
+
+
+https://www.youtube.com/watch?v=a75PNthqQOI&list=PLCmMBFUxxgnr81LiSRl_gR6e_VvSO1_f6&index=2&ab_channel=ImranShaikh
